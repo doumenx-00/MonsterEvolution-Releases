@@ -16,8 +16,16 @@ Sluit de game en klik **Updates controleren** in de launcher. Nieuwe versies wor
 
 Je save staat apart in `%APPDATA%\Godot\app_userdata\MonsterEvolution\monster_evolution_save.cfg`. De launcher raakt deze niet aan. Maak vóór grote spelupdates een back-up van je voortgang.
 
+## Online duels vanaf 0.2.0
+
+Jullie kunnen via een gedeelde code tegen elkaar vechten, ook vanuit twee huizen. Beide spelers hebben een opgeslagen starter/team en dezelfde actuele spelversie nodig. Kies **Online duel → Internet · duelcode** in het hoofdmenu. De host kiest **Duel hosten** en deelt de code privé. De andere speler vult die code in en kiest **Aansluiten**. Beiden klikken **Klaar voor duel**.
+
+De verbinding loopt via een Cloudflare-relay; jullie hoeven geen IP-adressen of routerpoorten in te stellen. Ieder gebruikt zijn eigen team, maximaal zes monsters. Het duel gebruikt tijdelijke kopieën en verandert gewone HP, PP, XP of voortgang niet. Samen rondlopen is nog niet ingebouwd.
+
+Getest met twee afzonderlijke Windows-gameprocessen via de publieke relay: 18 beurten en dezelfde eindstatus/winnaar. Jullie daadwerkelijke twee pc's en thuisnetwerken moeten nog worden uitgeprobeerd.
+
 ## Besturing en teststatus
 
 WASD/ZQSD of pijltjes: lopen · Shift: sprinten · E: interactie · Tab: wereldkaart.
 
-De eerste versie is een **solotestversie**. Samen spelen is nog niet ingebouwd. Nieuwe monsteranimaties en verdere verbeteringen volgen als updates. Meld bij problemen je versienummer en wat je vlak daarvoor deed; deel geen persoonlijke saves openbaar.
+Dit blijft een testversie. Nieuwe monsteranimaties en verdere verbeteringen volgen als updates. Meld bij problemen je versienummer en wat je vlak daarvoor deed; deel geen persoonlijke saves of duelcodes openbaar.
